@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Tiltal</h1>
+        <img alt="tiltal" height={500} layout="intrinsic" src="/hook.jpg" />
       </main>
     </div>
   );
