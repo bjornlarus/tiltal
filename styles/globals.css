@@ -1,16 +1,29 @@
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  padding: 0;
+  background: #fff;
+  color: #1f1a17;
+  font-family: var(--font-outfit), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: #e85d26;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1f1a17;
+}
+
+/* Keep section headings clear of the sticky header when jumping to anchors */
+section[id] {
+  scroll-margin-top: 72px;
 }
